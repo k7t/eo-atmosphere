@@ -77,7 +77,7 @@ difficult.
 
 There are several ways how to use these modules:
 1. **[nbviewer](https://nbviewer.jupyter.org/)** - Static rendering of the 
-notebooks. Copy paste the link to the notebook [index_ltpy_v01.ipynb](./index_ltpy_v01.ipynb) 
+notebooks. Copy paste the link to the notebook [index_ltpy.ipynb](./index_ltpy.ipynb) 
 into nbviewer.
 2. **Clone this repo** and run the notebooks on your local Jupyter notebook
 server. If you prefer this solution, you have to reproduce the settings. The following
