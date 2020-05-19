@@ -44,7 +44,7 @@ The course follows a modular approach and offers the following modules:
 **3 - Data workflows and case studies**
  * [3.1 - AC SAF GOME-2 - Level 2 data - Case studies](./31_ltpy_AC_SAF_GOME-2_L2_case_study.ipynb)
  * [3.2 - AC SAF GOME-2 - Level 3 data - Workflow examples](./32_ltpy_AC_SAF_GOME-2_L3_case_study.ipynb)
- * [3.3 - Arctic Fires Summer 2019 - Case Study](./33_ltpy_Arctic_Fires_case_study.ipynb)
+ * [3.3 - Siberian Fires Summer 2019 - Case Study](./33_ltpy_Siberian_Fires_case_study.ipynb)
  * [3.4.1 - Antarctic ozone hole - Summer 2019 - Case Study](./341_ltpy_Ozone_hole_case_study.ipynb)
  * [3.4.2 - Antarctic ozone hole - Summer 2019 - Animation](./342_ltpy_Ozone_hole_case_study_cams_animation.ipynb)
 
@@ -104,5 +104,5 @@ following Python version and Python packages will be required:
 Python packages can be installed with `conda install <python_package_name>` or 
 `pip install <python_pacakage_name>`
 
-You can download the data folder **eodata* used in this training course [here](https://drive.google.com/file/d/1j3uiJWhgWp3V-iGdpdT8gb6iB6NCVP9q/view?usp=sharing).
+You can download the data folder **eodata** used in this training course [here](https://drive.google.com/file/d/1j3uiJWhgWp3V-iGdpdT8gb6iB6NCVP9q/view?usp=sharing).
 
