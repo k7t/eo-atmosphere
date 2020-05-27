@@ -94,15 +94,12 @@ following Python version and Python packages will be required:
 
 * Python version: **Python3**
 * Python packages:
-  * [xarray](http://xarray.pydata.org/en/stable/index.html)
-  * [netCDF4](https://unidata.github.io/netcdf4-python/netCDF4/index.html)
-  * [h5py](https://pypi.org/project/h5py/)
-  * [numpy](https://numpy.org/)
-  * [matplotlib](https://matplotlib.org/)
-  * [cartopy](https://scitools.org.uk/cartopy/docs/latest/)
+ * [xarray 0.14.1](http://xarray.pydata.org/en/stable/index.html)
+ * [netCDF4 1.5.3](https://unidata.github.io/netcdf4-python/netCDF4/index.html)
+ * [numpy 1.17.3](https://numpy.org/)
+ * [matplotlib 3.1.2](https://matplotlib.org/)
+ * [Cartopy 0.17.0](https://scitools.org.uk/cartopy/docs/latest/)
 
 Python packages can be installed with `conda install <python_package_name>` or 
-`pip install <python_pacakage_name>`
-
-You can download the data folder **eodata** used in this training course [here](https://drive.google.com/file/d/1j3uiJWhgWp3V-iGdpdT8gb6iB6NCVP9q/view?usp=sharing).
+`pip install <python_pacakage_name>`. 
 
