@@ -19,9 +19,11 @@ This course features the following data:
 * `AC SAF GOME-2 Level-2` data onboard of Metop-A and Metop-B satellites
 * `AC SAF GOME-2 Level-3` reprocessed and regridded data
 <br>
+
 * `GOME-2 Level-2 Polar Multi-Sensor Aerosol Optical Properties (PMAp)` data onboard of Metop-A and Metop-B satellites
-<br>
+
 * `IASI Level-2` data onboard of Metop-A and Metop-B satellites
+
 <br>
 
 * `Copernicus Sentinel-5P` data
@@ -40,6 +42,7 @@ The course follows a modular approach and offers the following modules:
   * [11 - Atmospheric Composition data overview and acccess](./11_ltpy_atmospheric_composition_overview.ipynb)
   * [12 - WEkEO Harmonized Data Access API](./12_ltpy_WEkEO_harmonized_data_access_api.ipynb)
 
+<br>
 
 * **2 - Load, browse and pre-process data**
   * [2.1.1 - AC SAF GOME-2 - Level 2 - Load and browse](./211_ltpy_AC_SAF_GOME-2_L2_load_browse.ipynb)
@@ -58,6 +61,7 @@ The course follows a modular approach and offers the following modules:
   * [2.8.2 - Global ECMWF Fire Forecast - Harmonized Danger Classes](./282_ltpy_GEFF_fire_forecast_harmonized_danger_classes.ipynb)
   * [2.8.3 - Global ECMWF Fire Forecast - Custom Danger Classes](./283_ltpy_GEFF_fire_forecast_custom_danger_classes.ipynb)
 
+<br>
 
 * **3 - Data workflows and case studies**
   * [3.1 - Case study - AC SAF GOME-2 - Level 2 data](./31_ltpy_case_study_AC_SAF_GOME-2_L2.ipynb)
