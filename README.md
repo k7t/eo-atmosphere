@@ -37,6 +37,7 @@ The course follows a modular approach and offers the following modules:
 
 * **[0 - Introduction to Python and Project Jupyter](./01_ltpy_Intro_to_Python_and_Jupyter.ipynb)** *(optional)*
 
+<br>
 
 * **1 - Overview of data and data access systems**
   * [11 - Atmospheric Composition data overview and acccess](./11_ltpy_atmospheric_composition_overview.ipynb)
