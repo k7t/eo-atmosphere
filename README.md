@@ -29,19 +29,16 @@ The course follows a modular approach and offers modules on:
 - [30 - CASE STUDIES](#case_studies)
 - [40 - EXERCISES](#exercises)
 
-<br>
-
 
 ### <a id='data_acces'></a>10 - DATA ACCESS
 
  * [11 - Atmospheric Composition data overview and acccess](./10_data_access/11_ac_data_access_overview.ipynb)
  * [12 - WEkEO Harmonized Data Access API](./10_data_access/12_WEkEO_harmonized_data_access_api.ipynb)
 
-<br>
 
 ### <a id='data_discovery'></a>20 - DATA DISCOVERY
 
-#### *AC SAF GOME-2 Level 2 and Level 3 data*
+##### *AC SAF GOME-2 Level 2 and Level 3 data*
    * [211 - AC SAF GOME-2 - Level 2 - Load and browse](./20_data_discovery/211_AC_SAF_GOME-2_L2_load_browse.ipynb)
    * [212 - AC SAF GOME-2 - Level 2 - Pre-process](./20_data_discovery/212_AC_SAF_GOME-2_L2_preprocess.ipynb)
    * [213 - AC SAF GOME-2 - Level 3 - Load and browse](./20_data_discovery/213_AC_SAF_GOME-2_L3_load_browse.ipynb)
@@ -70,7 +67,6 @@ The course follows a modular approach and offers modules on:
    * [272 - Global ECMWF Fire Forecast - Harmonized Danger Classes](./20_data_discovery/272_GEFF_fire_forecast_harmonized_danger_classes.ipynb)
    * [273 - Global ECMWF Fire Forecast - Custom Danger Classes](./20_data_discovery/273_GEFF_fire_forecast_custom_danger_classes.ipynb)
 
-<br>
 
 ### <a id='case_studies'></a>30 - CASE STUDIES
 
@@ -122,7 +118,7 @@ The course follows a modular approach and offers modules on:
 If a notebook makes use of these functions, they are loaded as **helper functions** at the beginning of the notebook. With `?function_name`, you can load the function's docstring to see what it does and which keyword arguments the function requires.
 See the example to load the docstring of the function [visualize_pcolormesh](./functions.ipynb#visualize_pcolormesh):
 
-`%run ./functions.ipynb`
+`%run ./functions.ipynb`<br>
 `?visualize_pcolomesh`
 
 
