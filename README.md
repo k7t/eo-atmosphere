@@ -1,97 +1,153 @@
 # LTPy - Learning tool for Python on Atmospheric Composition Data
 
-**LTPy - Learning tool for Python on Atmospheric Composition Data** is a 
-Python-based training course on Atmospheric Composition Data. The training 
-course covers modules on `10 - DATA ACCESS`, `20 - DATA DISCOVERY`, 
-`30 - CASE STUDIES` as well as `40 - EXERCISE` of satellite- and model-based data 
-on Atmospheric Composition.
+**LTPy - Learning tool for Python on Atmospheric Composition Data** is a Python-based training course on Atmospheric Composition Data. The training course covers [10 - DATA ACCESS](#data_access), [20 - DATA DISCOVERY](#data_discovery), [30 - CASE STUDIES](#case_studies) and [40 - EXERCISES](#exercises) of satellite- and model-based data on Atmospheric Composition.
 
-The course is based on [Jupyter notebooks](https://jupyter.org/), which allow
-a high-level of interactive learning, as code, text description and visualisation 
-is combined in one place. If you have not worked with `Jupyter Notebooks` before, 
-you can look at the module [01 - Python and Project Jupyter 101](./01_Python_and_Jupyter_101.ipynb) 
-to get a short introduction to Jupyter notebooks and their benefits.
+The course is based on [Jupyter notebooks](https://jupyter.org/), which allow for a high-level of interactive learning, as code, text description and visualisation is combined in one place. If you have not worked with `Jupyter Notebooks` before, you can look at the module [01 - Python and Project Jupyter 101](./01_Python_and_Jupyter_101.ipynb) to get a short introduction to Jupyter notebooks and their benefits.
+
 
 ## Data on Atmospheric Composition
-This course features the following data:
-
-This course features the following data:
+This course features the following **satellite** data:
 * `AC SAF GOME-2 Level-2` data onboard of Metop-A and Metop-B satellites
 * `AC SAF GOME-2 Level-3` reprocessed and regridded data
-<br>
 
 * `GOME-2 Level-2 Polar Multi-Sensor Aerosol Optical Properties (PMAp)` data onboard of Metop-A and Metop-B satellites
 
 * `IASI Level-2` data onboard of Metop-A and Metop-B satellites
 
-<br>
-
 * `Copernicus Sentinel-5P` data
 * `Copernicus Sentinel-3 OLCI` data
 * `Copernicus Sentinel-3 SLSTR NRT FRP` data
+* `Copernicus Sentinel-3 SLSTR NRT AOD` data
+
+And the following **model-based** data:
 * `Copernicus Atmosphere Monitoring Service (CAMS)` data
+* `Global ECMWF Fire Forecast (GEFF)` data
+
 
 
 ## Course material
-The course follows a modular approach and offers the following modules:
-
-* **[0 - Introduction to Python and Project Jupyter](./01_ltpy_Intro_to_Python_and_Jupyter.ipynb)** *(optional)*
-
-<br>
-
-* **1 - Overview of data and data access systems**
-  * [11 - Atmospheric Composition data overview and acccess](./11_ltpy_atmospheric_composition_overview.ipynb)
-  * [12 - WEkEO Harmonized Data Access API](./12_ltpy_WEkEO_harmonized_data_access_api.ipynb)
+The course follows a modular approach and offers modules on:
+- [10 - DATA ACCESS](#data_access)
+- [20 - DATA DISCOVERY](#data_discovery)
+- [30 - CASE STUDIES](#case_studies)
+- [40 - EXERCISES](#exercises)
 
 <br>
 
-* **2 - Load, browse and pre-process data**
-  * [2.1.1 - AC SAF GOME-2 - Level 2 - Load and browse](./211_ltpy_AC_SAF_GOME-2_L2_load_browse.ipynb)
-  * [2.1.2 - AC SAF GOME-2 - Level 2 - Pre-process](./212_ltpy_AC_SAF_GOME-2_L2_preprocess.ipynb)
-  * [2.1.3 - AC SAF GOME-2 - Level 2 - Produce gridded dataset (L3)](./213_ltpy_AC_SAF_GOME-2_L2_produce_gridded_dataset_L3.ipynb)
-  * [2.1.4 - AC SAF GOME-2 - Level 3](./214_ltpy_AC_SAF_GOME-2_L3.ipynb)
-  * [2.1.5 - AC SAF GOME-2 - Level 3 - Aerosol Absorbing Index](./215_ltpy_AC_SAF_GOME-2_L3_AAI.ipynb) 
-  * [2.2 - GOME-2 - Polar Multi-Sensor Aerosol Optical Properties - Load and browse](./22_ltpy_GOME-2_PMAp_load_browse.ipynb)
-  * [2.3 - IASI - Level 2 - Load and browse](./23_ltpy_IASI_L2_load_browse.ipynb)
-  * [2.4 - Sentinel-5p - Level 2](./24_ltpy_Sentinel5p_L2_data.ipynb)
-  * [2.5 - Copernicus Atmosphere Monitoring Service (CAMS)](./25_ltpy_Copernicus_Atmosphere_Monitoring_Service_data.ipynb)
-  * [2.6 - Sentinel-3 OLCI - Level 1](./26_ltpy_Sentinel3_OLCI_L1.ipynb)
-  * [2.7.1 - Sentinel-3 SLSTR NRT - Fire Radiative Power (FRP) - Australian Fires](./271_ltpy_Sentinel3_slstr_nrt_frp_Australian_fires.ipynb)
-  * [2.7.2 - Sentinel-3 SLSTR NRT - Fire Radiative Power (FRP) - Chernobyl Fires](./272_ltpy_Sentinel3_slstr_nrt_frp_Chernobyl_fires.ipynb)
-  * [2.8.1 - Global ECMWF Fire Forecast - Data Overview](./281_ltpy_GEFF_fire_forecast_data_overview.ipynb)
-  * [2.8.2 - Global ECMWF Fire Forecast - Harmonized Danger Classes](./282_ltpy_GEFF_fire_forecast_harmonized_danger_classes.ipynb)
-  * [2.8.3 - Global ECMWF Fire Forecast - Custom Danger Classes](./283_ltpy_GEFF_fire_forecast_custom_danger_classes.ipynb)
+
+<div class="alert alert-block alert-info">
+<b><a id='data_acces'></a>10 - DATA ACCESS</b>
+</div>
+
+ * [11 - Atmospheric Composition data overview and acccess](./10_data_access/11_ac_data_access_overview.ipynb)
+ * [12 - WEkEO Harmonized Data Access API](./10_data_access/12_WEkEO_harmonized_data_access_api.ipynb)
 
 <br>
 
-* **3 - Data workflows and case studies**
-  * [3.1 - Case study - AC SAF GOME-2 - Level 2 data](./31_ltpy_case_study_AC_SAF_GOME-2_L2.ipynb)
-  * [3.2 - Case study - AC SAF GOME-2 - Level 3 data](./32_ltpy_case_study_AC_SAF_GOME-2_L3.ipynb)
-  * [3.3 - Case study - Siberian Fires - Summer 2019](./33_ltpy_case_study_Siberian_Fires_summer_2019.ipynb)
-  * [3.4.1 - Case study - Antarctic ozone hole anomaly - Summer 2019](./341_ltpy_case_study_Ozone_hole_anomaly.ipynb)
-  * [3.4.2 - Case study - Antarctic ozone hole anomaly - Summer 2019 - CAMS Animation](./342_ltpy_case_study_Ozone_hole_anomaly_2019_cams_animation.ipynb)
-  * [3.5.1 - Case study - Covid-19 - GOME-2 anomaly map](./351_ltpy_case_study_covid-19_GOME2_anomaly_map.ipynb)
-  * [3.5.2 - Case study - Covid-19 - GOME-2 time-series analysis](./352_ltpy_case_study_covid-19_GOME2_time-series.ipynb)
-  * [3.5.3 - Case study - Covid-19 - Sentinel-5p anomaly map](./353_ltpy_case_study_covid-19_sentinel5p_maps.ipynb)
-  * [3.5.4 - Case study - Covid-19 - Sentinel-5p time-series analysis](./354_ltpy_case_study_covid-19_sentinel5p_time-series.ipynb)
+<div class="alert alert-block alert-success">
+<b><a id='data_discovery'></a>20 - DATA DISCOVERY</b>
+</div>
+
+#### *AC SAF GOME-2 Level 2 and Level 3 data*
+   * [211 - AC SAF GOME-2 - Level 2 - Load and browse](./20_data_discovery/211_AC_SAF_GOME-2_L2_load_browse.ipynb)
+   * [212 - AC SAF GOME-2 - Level 2 - Pre-process](./20_data_discovery/212_AC_SAF_GOME-2_L2_preprocess.ipynb)
+   * [213 - AC SAF GOME-2 - Level 3 - Load and browse](./20_data_discovery/213_AC_SAF_GOME-2_L3_load_browse.ipynb)
+   * [214 - AC SAF GOME-2 - Level 3 - Aerosol Absorbing Index (AAI)](./20_data_discovery/214_AC_SAF_GOME-2_L3_AAI_load_browse.ipynb)
+
+#### *GOME-2 Polar Multi-Sensor Aerosol Optical Properties (PMAp) data*
+   * [221 - GOME-2 - Polar Multi-Sensor Aerosol Optical Properties (PMAp) - Load and browse](./20_data_discovery/221_GOME-2_PMAp_load_browse.ipynb)
+
+#### *IASI Level 2 data*
+   * [231 - IASI - Level 2 - Load and browse](./20_data_discovery/23_IASI_L2_load_browse.ipynb)
+
+#### *Sentinel-5P Level 2 data*
+   * [241 - Sentinel-5P - Level 2 - Load and browse](./20_data_discovery/241_Sentinel-5P_L2_load_browse.ipynb)
+
+#### *Sentinel-3 data*
+   * [251 - Sentinel-3 OLCI - Level 1 - Load and browse](./20_data_discovery/251_Sentinel-3_OLCI_L1_load_browse.ipynb)
+   * [252 - Sentinel-3 SLSTR NRT - Fire Radiative Power (FRP) - Load and browse](./20_data_discovery/252_Sentinel-3_SLSTR_NRT_FRP_load_browse.ipynb)
+   * [253 - Sentinel-3 SLSTR NRT - Aerosol Optical Depth (AOD) - Load and browse](./20_data_discovery/253_Sentinel-3_SLSTR_NRT_AOD_load_browse.ipynb)
+
+#### *Copernicus Atmosphere Monitoring Service (CAMS) data*
+   * [261 - CAMS - EAC4  Load and browse](./20_data_discovery/261_CAMS_eac4_load_browse.ipynb)
+   * [262 - CAMS - GFAS - Load and browse](./20_data_discovery/262_CAMS_gfas_load_browse.ipynb)
+
+#### *Global ECMWF Fire Forecast (GEFF) data*
+   * [271 - Global ECMWF Fire Forecast - Load and browse](./20_data_discovery/271_GEFF_fire_forecast_load_browse.ipynb)
+   * [272 - Global ECMWF Fire Forecast - Harmonized Danger Classes](./20_data_discovery/272_GEFF_fire_forecast_harmonized_danger_classes.ipynb)
+   * [273 - Global ECMWF Fire Forecast - Custom Danger Classes](./20_data_discovery/273_GEFF_fire_forecast_custom_danger_classes.ipynb)
+
 <br>
 
-**NOTE:** Throughout the course, general functions to `load`, `re-shape`, `process` and `visualize` the datasets are defined. These functions are re-used when applicable. The [LTPy functions notebook](./ltpy_functions.ipynb) gives you an overview of all the functions defined and used for the course.
+<div class="alert alert-block alert-warning">
+<b><a id='case_studies'></a>30 - CASE STUDIES</b>
+</div>
 
-The notebook [12 - WEkEO Harmonized Data Access API](./12_ltpy_WEkEO_harmonized_data_access_api.ipynb) makes use of functions defined in the [LTPy HDA API functions notebook](./ltpy_hda_api_functions.ipynb).
+#### *AC SAF GOME-2 Level 2 and Level 3 data*
+   * [311 - AC SAF GOME-2 - Level 2 - Case study](./30_case_studies/311_AC_SAF_GOME-2_L2_case_study.ipynb)
+   * [312 - AC SAF GOME-2 - Level 3 - Case study](./30_case_studies/312_AC_SAF_GOME-2_L3_case_study.ipynb)
+   * [313 - AC SAF GOME-2 - Level 2 - Produce gridded dataset - Workflow](./30_case_studies/313_AC_SAF_GOME-2_L2_produce_gridded_dataset_workflow.ipynb)
 
+#### *Fire events - Case studies*   
+   * [321 - Siberian Fires - Summer 2019 - Case study](./30_case_studies/321_Siberian_fires_summer_2019_case_study.ipynb)
+   * [322 - Californian Fires - Summer 2020 - Case study](./30_case_studies/322_Californian_fires_summer_2020_case_study.ipynb)
+
+#### *Sentinel-3 SLSTR NRT data - Case studies*
+   * [331 - Sentinel-3 SLSTR NRT FRP - Chernobyl fires - Case study](./30_case_studies/331_Sentinel-3_SLSTR_NRT_FRP_Chernobyl_fires_case_study.ipynb)
+   * [332 - Sentinel-3 SLSTR NRT FRP - Californian fires - Case study](./30_case_studies/332_Sentinel-3_SLSTR_NRT_FRP_Californian_fires_case_study.ipynb)
+   * [333 - Sentinel-3 SLSTR NRT AOD - Californian fires - Case study](./30_case_studies/333_Sentinel-3_SLSTR_NRT_AOD_Californian_fires_case_study.ipynb)
+
+#### *Antarctic ozone hole anomaly - Summer 2019*
+   * [341 - Antarctic ozone hole anomaly - Summer 2019 - Case study](./30_case_studies/341_Ozone_hole_anomaly_case_study.ipynb)
+   * [342 - Antarctic ozone hole anomaly - Summer 2019 - CAMS Animation - Case study](./30_case_studies/342_Ozone_hole_anomaly_2019_case_study_cams_animation.ipynb)
+<br>
+
+#### *COVID-19 case study - GOME-2 and Sentinel-5p anomaly maps and time-series analysis*
+   * [351 - COVID-19 - GOME-2 anomaly map](./30_case_studies/351_COVID-19_case_study_GOME-2_anomaly_map.ipynb)
+   * [352 - COVID-19 - GOME-2 time-series analysis](./30_case_studies/352_COVID-19_case_study_GOME-2_time_series.ipynb)
+   * [353 - COVID-19 - Sentinel-5P anomaly map](./30_case_studies/353_COVID-19_case_study_Sentinel-5P_anomaly_map.ipynb)
+   * [354 - COVID-19 - Sentinel-5P time-series analysis](./30_case_studies/354_COVID-19_case_study_Sentinel-5P_time_series.ipynb)
+
+
+<br>
+
+
+
+
+<div class="alert alert-block alert-danger">
+<b><a id='exercises'></a>40 - EXERCISES</b>
+</div>
+
+#### *Sentinel-5P - Exercises*
+   * [411 - Sentinel-5P Level 2 - Exercise](./40_exercises/411_Sentinel-5P_L2_exercise.ipynb)
+
+#### *Sentinel-3 - Exercises*
+   * [421 - Sentinel-3 OLCI Level 1 - Exercise](./40_exercises/421_Sentinel-3_OLCI_L1_exercise.ipynb)
+   * [422 - Sentinel-3 SLSTR NRT FRP - Exercise](./40_exercises/422_Sentinel-3_SLSTR_NRT_FRP_exercise.ipynb)
+   * [423 - Sentinel-3 SLSTR NRT AOD - Exercise](./40_exercises/423_Sentinel-3_SLSTR_NRT_AOD_exercise.ipynb)
+
+#### *Copernicus Atmosphere Monitoring Service - Exercises*
+   * [431 - CAMS EAC4 - Exercise](./40_exercises/431_CAMS_EAC4_exercise.ipynb)
+
+<br>
+
+
+**NOTE:** Throughout the course, general functions to `load`, `re-shape`, `process` and `visualize` the datasets are defined. These functions are re-used when applicable. The [functions notebook](./functions.ipynb) gives you an overview of all the functions defined and used for the course.
+
+If a notebook makes use of these functions, they are loaded as **helper functions** at the beginning of the notebook. With `?function_name`, you can load the function's docstring to see what it does and which keyword arguments the function requires.
+See the example to load the docstring of the function [visualize_pcolormesh](./functions.ipynb#visualize_pcolormesh):
+
+`%run ./functions.ipynb`
+`?visualize_pcolomesh`
 
 
 ## Learning outcomes
-The course is designed for `medium-level users`, who have basic Python knowledge 
-and understanding of `Atmospheric composition data`.
+The course is designed for `medium-level users`, who have basic Python knowledge and understanding of Atmospheric composition data.
 
 After the course, you should have:
-
-* an idea about the different datasets on Atmospheric Composition data,
-* knowledge about the most useful Python packages to handle, process and 
-visualise large volumes of Earth Observation data
-* an idea about different data application areas
+* an idea about the **different datasets on Atmospheric Composition data**,
+* knowledge about the most useful **Python packages** to handle, process and visualise large volumes of Earth Observation data
+* an idea about different **data application areas**
 
 ## How to use this course material
 This course material is made available via EUMETSAT's EUMETlab training space on
@@ -102,14 +158,14 @@ difficult.
 
 There are several ways how to use these modules:
 1. **[nbviewer](https://nbviewer.jupyter.org/)** - Static rendering of the 
-notebooks. Copy paste the link to the notebook [00_index_ltpy.ipynb](./00_index_ltpy.ipynb) 
+notebooks. Follow this [link](https://nbviewer.jupyter.org/urls/gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/raw/master/00_index.ipynb) 
 into nbviewer.
 2. **Clone this repo** and run the notebooks on your local Jupyter notebook
 server. If you prefer this solution, you have to reproduce the settings. The following
 section provides you more information on how to reproduce the set up on your 
 local machine.
 3. **LTPy JupyterHub** - You can create an 
-account [here](http://wekeo-login.services.meeo.it/) and then log into the
+account [here](https://login.ltpy.adamplatform.eu/) and then log into the
 [LTPy Jupyterhub](https://ltpy.adamplatform.eu).
 
 ## Reproduce LTPy on Atmospheric Compostion data locally
