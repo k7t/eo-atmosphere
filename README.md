@@ -1,6 +1,6 @@
 # LTPy - Learning tool for Python on Atmospheric Composition Data
 
-**LTPy - Learning tool for Python on Atmospheric Composition Data** is a Python-based training course on Atmospheric Composition Data. The training course covers [10 - DATA ACCESS](#data_access), [20 - DATA DISCOVERY](#data_discovery), [30 - CASE STUDIES](#case_studies) and [40 - EXERCISES](#exercises) of satellite- and model-based data on Atmospheric Composition.
+**LTPy - Learning tool for Python on Atmospheric Composition Data** is a Python-based training course on Atmospheric Composition Data. The training course covers [10 - DATA ACCESS](./10_data_access/), [20 - DATA DISCOVERY](./20_data_discovery/), [30 - CASE STUDIES](./30_case_studies/) and [40 - EXERCISES](./40_exercises/) of satellite- and model-based data on Atmospheric Composition.
 
 The course is based on [Jupyter notebooks](https://jupyter.org/), which allow for a high-level of interactive learning, as code, text description and visualisation is combined in one place. If you have not worked with `Jupyter Notebooks` before, you can look at the module [01 - Python and Project Jupyter 101](./01_Python_and_Jupyter_101.ipynb) to get a short introduction to Jupyter notebooks and their benefits.
 
@@ -24,11 +24,6 @@ And the following **model-based** data:
 
 ## Course material
 The course follows a modular approach and offers modules on:
-- [10 - DATA ACCESS](#data_access)
-- [20 - DATA DISCOVERY](#data_discovery)
-- [30 - CASE STUDIES](#case_studies)
-- [40 - EXERCISES](#exercises)
-
 
 ### <a id='data_acces'></a>10 - DATA ACCESS
 
