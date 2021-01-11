@@ -142,7 +142,7 @@ local machine.
 account [here](https://login.ltpy.adamplatform.eu/) and then log into the
 [LTPy Jupyterhub](https://ltpy.adamplatform.eu).
 
-## Reproduce LTPy on Atmospheric Compostion data locally
+## Reproduce LTPy on Atmospheric Composition data locally
 In case you wish to reproduce the course modules on your local setup, the 
 following Python version and Python packages will be required:
 
