@@ -146,13 +146,8 @@ account [here](https://login.ltpy.adamplatform.eu/) and then log into the
 In case you wish to reproduce the course modules on your local setup, the 
 following Python version and Python packages will be required:
 
-* Python version: **Python3**
-* Python packages:
-  * [xarray 0.14.1](http://xarray.pydata.org/en/stable/index.html)
-  * [netCDF4 1.5.3](https://unidata.github.io/netcdf4-python/netCDF4/index.html)
-  * [numpy 1.17.3](https://numpy.org/)
-  * [matplotlib 3.1.2](https://matplotlib.org/)
-  * [Cartopy 0.17.0](https://scitools.org.uk/cartopy/docs/latest/)
+* Python version: **Python3.8**
+* Python packages: see [requirements.txt](./requirements.txt)
 
 Python packages can be installed with `conda install <python_package_name>` or 
 `pip install <python_pacakage_name>`. 
