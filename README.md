@@ -9,11 +9,8 @@ The course is based on [Jupyter notebooks](https://jupyter.org/), which allow fo
 This course features the following **satellite** data:
 * `AC SAF GOME-2 Level-2` data onboard of Metop-A and Metop-B satellites
 * `AC SAF GOME-2 Level-3` reprocessed and regridded data
-
 * `GOME-2 Level-2 Polar Multi-Sensor Aerosol Optical Properties (PMAp)` data onboard of Metop-A and Metop-B satellites
-
 * `IASI Level-2` data onboard of Metop-A and Metop-B satellites
-
 * `Copernicus Sentinel-5P` data
 * `Copernicus Sentinel-3 OLCI` data
 * `Copernicus Sentinel-3 SLSTR NRT FRP` data
@@ -35,18 +32,14 @@ The course follows a modular approach and offers modules on:
 <br>
 
 
-<div class="alert alert-block alert-info">
-<b><a id='data_acces'></a>10 - DATA ACCESS</b>
-</div>
+### <a id='data_acces'></a>10 - DATA ACCESS
 
  * [11 - Atmospheric Composition data overview and acccess](./10_data_access/11_ac_data_access_overview.ipynb)
  * [12 - WEkEO Harmonized Data Access API](./10_data_access/12_WEkEO_harmonized_data_access_api.ipynb)
 
 <br>
 
-<div class="alert alert-block alert-success">
-<b><a id='data_discovery'></a>20 - DATA DISCOVERY</b>
-</div>
+### <a id='data_discovery'></a>20 - DATA DISCOVERY
 
 #### *AC SAF GOME-2 Level 2 and Level 3 data*
    * [211 - AC SAF GOME-2 - Level 2 - Load and browse](./20_data_discovery/211_AC_SAF_GOME-2_L2_load_browse.ipynb)
@@ -79,9 +72,7 @@ The course follows a modular approach and offers modules on:
 
 <br>
 
-<div class="alert alert-block alert-warning">
-<b><a id='case_studies'></a>30 - CASE STUDIES</b>
-</div>
+### <a id='case_studies'></a>30 - CASE STUDIES
 
 #### *AC SAF GOME-2 Level 2 and Level 3 data*
    * [311 - AC SAF GOME-2 - Level 2 - Case study](./30_case_studies/311_AC_SAF_GOME-2_L2_case_study.ipynb)
@@ -100,7 +91,6 @@ The course follows a modular approach and offers modules on:
 #### *Antarctic ozone hole anomaly - Summer 2019*
    * [341 - Antarctic ozone hole anomaly - Summer 2019 - Case study](./30_case_studies/341_Ozone_hole_anomaly_case_study.ipynb)
    * [342 - Antarctic ozone hole anomaly - Summer 2019 - CAMS Animation - Case study](./30_case_studies/342_Ozone_hole_anomaly_2019_case_study_cams_animation.ipynb)
-<br>
 
 #### *COVID-19 case study - GOME-2 and Sentinel-5p anomaly maps and time-series analysis*
    * [351 - COVID-19 - GOME-2 anomaly map](./30_case_studies/351_COVID-19_case_study_GOME-2_anomaly_map.ipynb)
@@ -111,12 +101,7 @@ The course follows a modular approach and offers modules on:
 
 <br>
 
-
-
-
-<div class="alert alert-block alert-danger">
-<b><a id='exercises'></a>40 - EXERCISES</b>
-</div>
+### <a id='exercises'></a>40 - EXERCISES
 
 #### *Sentinel-5P - Exercises*
    * [411 - Sentinel-5P Level 2 - Exercise](./40_exercises/411_Sentinel-5P_L2_exercise.ipynb)
