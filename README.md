@@ -90,8 +90,6 @@ The course follows a modular approach and offers modules on:
    * [354 - COVID-19 - Sentinel-5P time-series analysis](./30_case_studies/354_COVID-19_case_study_Sentinel-5P_time_series.ipynb)
 
 
-<br>
-
 ### <a id='exercises'></a>40 - EXERCISES
 
 ##### *Sentinel-5P - Exercises*
