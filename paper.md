@@ -68,13 +68,14 @@ Case study modules are in the folder 30_case_studies/. These modules are more ad
 40 - Exercises
 Exercise modules are in the folder 40_exercises/. These modules provide the learner an opportunity to actively practice the learned content. Exercise workbooks contain two types of exercises: (i) coding assignments and (ii) questions. Coding assignments ask to fill in an empty code cell based on the given instructions. Questions ask the learner to reflect on an output and shall encourage the learner to understand the results of code blocks. Exercise workbooks are based upon data discovery modules and learners are advised to go through the respective data discovery module before.
 
+*Table 1. Overview of satellite- and model-base data products covered in LTPy*
 |Data provider|Satellite|Instrument|Product|
 |:---|:---|:---|:---|
 |EUMETSAT|Metop-A/B/C|GOME-2|Ozone; Absorbing Aerosol Index; Nitrogen Dioxide|
 |EUMETSAT|Metop-A/B/C|IASI|Ammonia; Carbon Monoxide; Ozone|
 |EUMETSAT|Metop-A/B/C|Multi-Instrument|Polar Multi-Sensor Aerosol Optical Depth (PMAp)|
 |Copernicus|Sentinel-5P|TROPOMI|Carbon Monoxide; Nitrogen Dioxide|
-|Copernicus|Sentinel-3|OLCI|- Level 1B RGB|
+|Copernicus|Sentinel-3|OLCI|Level 1B RGB|
 |Copernicus|Sentinel-3|SLSTR|Fire Radiative Power (FRP) Near-Real-Time; Absorbing Aerosol Index (AOD) Near-Real-Time|
 |Copernicus Atmosphere Monitoring Service (CAMS)|N/A|N/A|EAC4 reanalysis; Global Fire Assimilation System (GFAS)|
 |Copernicus Emergency Management Service (CEMS)|N/A|N/A|Global ECMWF Fire Forecasts (GEFF)|
