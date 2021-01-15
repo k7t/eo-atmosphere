@@ -66,7 +66,7 @@ Data discovery modules are in the folder [20_data_disovery](https://gitlab.eumet
 Case study modules are in the folder [30_case_studies](https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/tree/master/30_case_studies). These modules are more advanced and have the aim to provide several atmospheric composition application examples. Case study modules often feature several atmospheric composition data types and may focus on different application areas, such as monitoring of fires, the analysis of the Ozone hole anomaly in 2019 or the analysis of Covid-19 impacts in different regions. However, a case study can also feature a technical workflow, showcasing e.g. how to generate gridded climate records (Level 3 products) from Level 2 data.
 
 ### 40 - Exercises
-Exercise modules are in the folder [40_exercises](https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/tree/master/40_exercises). These modules provide the learner an opportunity to actively practice the learned content. Exercise workbooks contain two types of exercises: (i) coding assignments and (ii) questions. Coding assignments ask to fill in an empty code cell based on the given instructions. Questions ask the learner to reflect on an output and shall encourage the learner to understand the results of code blocks. Exercise workbooks are based upon data discovery modules and learners are advised to go through the respective data discovery module before.
+Exercise modules are in the folder [40_exercises](https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere/-/tree/master/40_exercises). These modules provide the learner an opportunity to actively practice the learned content. Exercise workbooks contain two types of exercises: (i) coding assignments and (ii) questions. Coding assignments ask to fill in an empty code cell based on the given instructions. Questions ask the learner to reflect on an output and shall encourage the learner to understand the results of code blocks. Exercise workbooks are based upon data discovery modules and learners are advised to go through the respective data discovery module before.\
 
 *Table 1. Overview of satellite- and model-base data products covered in LTPy*
 
@@ -80,6 +80,7 @@ Exercise modules are in the folder [40_exercises](https://gitlab.eumetsat.int/eu
 |Copernicus|Sentinel-3|SLSTR|Fire Radiative Power (FRP) Near-Real-Time; Absorbing Aerosol Index (AOD) Near-Real-Time|
 |Copernicus Atmosphere Monitoring Service (CAMS)|N/A|N/A|EAC4 reanalysis; Global Fire Assimilation System (GFAS)|
 |Copernicus Emergency Management Service (CEMS)|N/A|N/A|Global ECMWF Fire Forecasts (GEFF)|
+
 
 # Teaching Experience
 
