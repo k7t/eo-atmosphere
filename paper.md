@@ -35,15 +35,15 @@ LTPy is based on Jupyter notebooks, which allow for a high-level of interactive 
 LTPy consists of a total of 37 Jupyter-based modules which are available on a [Gitlab repository](https://gitlab.eumetsat.int/eumetlab/atmosphere/atmosphere) as well as on a dedicated [LTPy training platform](https://ltpy.adamplatform.eu).
 
 # Statement of need
-The field of Earth Observations (EO) has experienced a series of disruptive changes. First, the adoption of open data policies in 2008 has led to an exponential growth in data uptake by users [@Zhu:2019]. Second, technological advancements and new satellite constellations have led to an increase in data volume and variety. One main driver for this is Copernicus, the European Commission’s Earth Observation programme. For instance, in 2019, Copernicus published over 18 Terabytes of Earth Observation data on a daily basis under a full, free and open data policy [@European Space Agency:2020]. This trend is expected to further increase with the upcoming new generation of European programs managed by the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT). 
-These disruptive changes lead naturally to an increase in number of users, but at the same time a much larger community of diverse users is interested in understanding and using the data [@Overpeck:2011; @EuropeanCommission:2019]. In the past, scientists and researchers have been the main users of EO data, whereas now the data attracts non EO experts alike, coming from varied application domains [@Sudmanns:2018]. This holds true especially for data on atmospheric composition, as the data is of interest for users working in different fields, such as fire monitoring, air quality and atmospheric composition monitoring and forecasting, modelling, climate assessment and dust monitoring. 
+The field of Earth Observations (EO) has experienced a series of disruptive changes. First, the adoption of open data policies in 2008 has led to an exponential growth in data uptake by users [@Zhu:2019]. Second, technological advancements and new satellite constellations have led to an increase in data volume and variety. One main driver for this is Copernicus, the European Commission’s Earth Observation programme. For instance, in 2019, Copernicus published over 18 Terabytes of Earth Observation data on a daily basis under a full, free and open data policy [@ESA:2020]. This trend is expected to further increase with the upcoming new generation of European programs managed by the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT). 
+These disruptive changes lead naturally to an increase in number of users, but at the same time a much larger community of diverse users is interested in understanding and using the data [@Overpeck:2011; @EU:2019]. In the past, scientists and researchers have been the main users of EO data, whereas now the data attracts non EO experts alike, coming from varied application domains [@Sudmanns:2018]. This holds true especially for data on atmospheric composition, as the data is of interest for users working in different fields, such as fire monitoring, air quality and atmospheric composition monitoring and forecasting, modelling, climate assessment and dust monitoring. 
 With the shift from EO expert users to multi-disciplined non-expert users three main challenges arise: (i) users are unaware of the existence of specific data and data products, (ii) users fail to make use of the data due to the diverse ways of data structures, data formats and dissemination channels and (iii) users do not know potential application areas. 
 These challenges require data organisations and agencies in charge of data production and dissemination, to develop new training strategies in order to support users to find and make use of the data. There is a growing need for the following requirements: 
-* need to address different types of users, such as expert, intermediate and end users
-* need to cover a wide range of know-how on EO: general knowledge of EO datasets, detailed data structure, basic analysis and visualization and application examples
-* need to combine documentation, concepts and practical coding 
-* need to provide technical capabilities / a training platform (including the need to minimize the required bandwidth for users) with access to data to conduct the training, so that learners can focus on the training 
-* need to accommodate for different types of training events: in-person training, on-line, synchronous and asynchronous. 
+- need to address different types of users, such as expert, intermediate and end users
+- need to cover a wide range of know-how on EO: general knowledge of EO datasets, detailed data structure, basic analysis and visualization and application examples
+- need to combine documentation, concepts and practical coding 
+- need to provide technical capabilities / a training platform (including the need to minimize the required bandwidth for users) with access to data to conduct the training, so that learners can focus on the training 
+- need to accommodate for different types of training events: in-person training, on-line, synchronous and asynchronous. 
 
 We aimed to address these requirements by creating a Jupyter-based training course with modules on data access, data discovery, case studies and exercises for different types of atmospheric composition data. The modules lead learners step-by-step through a typical data analysis workflow, including data loading, processing and visualization. The systematic use of the same Python libraries and a set of defined functions makes the course accessible to learners with basic and more advanced programming skills alike. Additionally, the training course is available through a [Jupyterhub-based training platform](https://ltpy.adamplatform.eu), where the required Python environment and data is already available. Instead of struggling with preparing the environment on their local machines, learners are able to directly start with the content-based training on atmospheric composition data.
 
@@ -72,10 +72,10 @@ Exercise modules are in the folder 40_exercises/. These modules provide the lear
 
 |Data provider|Satellite|Instrument|Product|
 |:---|:---|:---|:---|
-|EUMETSAT|Metop-A/B/C|GOME-2|- Ozone<br>- Absorbing Aerosol Index<br>- Nitrogen Dioxide|
-|EUMETSAT|Metop-A/B/C|IASI|- Ammonia<br>- Carbon Monoxide<br>- Ozone|
+|EUMETSAT|Metop-A/B/C|GOME-2|- Ozone <br> - Absorbing Aerosol Index <br> - Nitrogen Dioxide|
+|EUMETSAT|Metop-A/B/C|IASI|- Ammonia <br> - Carbon Monoxide <br> - Ozone|
 |EUMETSAT|Metop-A/B/C|Multi-Instrument|- Polar Multi-Sensor Aerosol Optical Depth (PMAp)|
-|Copernicus|Sentinel-5P|TROPOMI|- Carbon Monoxide<br>- Nitrogen Dioxide|
+|Copernicus|Sentinel-5P|TROPOMI|- Carbon Monoxide<br> - Nitrogen Dioxide|
 |Copernicus|Sentinel-3|OLCI|- Level 1B RGB|
 |Copernicus|Sentinel-3|SLSTR|- Fire Radiative Power (FRP) Near-Real-Time<br>- Absorbing Aerosol Index (AOD) Near-Real-Time|
 |Copernicus Atmosphere Monitoring Service (CAMS)|N/A|N/A|- EAC4 reanalysis<br>- Global Fire Assimilation System (GFAS)|
