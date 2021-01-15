@@ -40,8 +40,8 @@ The field of Earth Observations (EO) has experienced a series of disruptive chan
 These disruptive changes lead naturally to an increase in number of users, but at the same time a much larger community of diverse users is interested in understanding and using the data [@Overpeck:2011; @EU:2019]. In the past, scientists and researchers have been the main users of EO data, whereas now the data attracts non EO experts alike, coming from varied application domains [@Sudmanns:2018]. This holds true especially for data on atmospheric composition, as the data is of interest for users working in different fields, such as fire monitoring, air quality and atmospheric composition monitoring and forecasting, modelling, climate assessment and dust monitoring. 
 With the shift from EO expert users to multi-disciplined non-expert users three main challenges arise: (i) users are unaware of the existence of specific data and data products, (ii) users fail to make use of the data due to the diverse ways of data structures, data formats and dissemination channels and (iii) users do not know potential application areas. 
 These challenges require data organisations and agencies in charge of data production and dissemination, to develop new training strategies in order to support users to find and make use of the data. There is a growing need for the following requirements:\
-- need to address different types of users, such as expert, intermediate and end users\
-- need to cover a wide range of know-how on EO: general knowledge of EO datasets, detailed data structure, basic analysis and visualization and application examples\
+* need to address different types of users, such as expert, intermediate and end users\
+* need to cover a wide range of know-how on EO: general knowledge of EO datasets, detailed data structure, basic analysis and visualization and application examples\
 - need to combine documentation, concepts and practical coding\ 
 - need to provide technical capabilities / a training platform (including the need to minimize the required bandwidth for users) with access to data to conduct the training, so that learners can focus on the training\ 
 - need to accommodate for different types of training events: in-person training, on-line, synchronous and asynchronous.\ 
@@ -76,7 +76,7 @@ Exercise modules are in the folder 40_exercises/. These modules provide the lear
 |Data provider|Satellite|Instrument|Product|
 |:---|:---|:---|:---|
 |EUMETSAT|Metop-A/B/C|GOME-2|Ozone\ Absorbing Aerosol Index\ Nitrogen Dioxide|
-|EUMETSAT|Metop-A/B/C|IASI|- Ammonia <br /> - Carbon Monoxide <br /> - Ozone|
+|EUMETSAT|Metop-A/B/C|IASI|Ammonia<br />Carbon Monoxide<br />Ozone|
 |EUMETSAT|Metop-A/B/C|Multi-Instrument|- Polar Multi-Sensor Aerosol Optical Depth (PMAp)|
 |Copernicus|Sentinel-5P|TROPOMI|- Carbon Monoxide<br> - Nitrogen Dioxide|
 |Copernicus|Sentinel-3|OLCI|- Level 1B RGB|
