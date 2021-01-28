@@ -1,24 +1,28 @@
 # LTPy - Learning tool for Python on Atmospheric Composition Data
 
-**LTPy - Learning tool for Python on Atmospheric Composition Data** is a Python-based training course on Atmospheric Composition Data. The training course covers [10 - DATA ACCESS](./10_data_access/), [20 - DATA DISCOVERY](./20_data_discovery/), [30 - CASE STUDIES](./30_case_studies/) and [40 - EXERCISES](./40_exercises/) of satellite- and model-based data on Atmospheric Composition.
+**LTPy - Learning tool for Python on Atmospheric Composition Data** is a Python-based training course on Atmospheric Composition Data. The training course covers [10 - DATA ACCESS](#data_access), [20 - DATA DISCOVERY](#data_discovery), [30 - CASE STUDIES](#case_studies) and [40 - EXERCISES](#exercises) of satellite- and model-based data on Atmospheric Composition.
 
 The course is based on [Jupyter notebooks](https://jupyter.org/), which allow for a high-level of interactive learning, as code, text description and visualisation is combined in one place. If you have not worked with `Jupyter Notebooks` before, you can look at the module [01 - Python and Project Jupyter 101](./01_Python_and_Jupyter_101.ipynb) to get a short introduction to Jupyter notebooks and their benefits.
 
 
 ## Data on Atmospheric Composition
 This course features the following **satellite** data:
-* `AC SAF GOME-2 Level-2` data onboard of Metop-A and Metop-B satellites
-* `AC SAF GOME-2 Level-3` reprocessed and regridded data
-* `GOME-2 Level-2 Polar Multi-Sensor Aerosol Optical Properties (PMAp)` data onboard of Metop-A and Metop-B satellites
-* `IASI Level-2` data onboard of Metop-A and Metop-B satellites
-* `Copernicus Sentinel-5P` data
-* `Copernicus Sentinel-3 OLCI` data
-* `Copernicus Sentinel-3 SLSTR NRT FRP` data
-* `Copernicus Sentinel-3 SLSTR NRT AOD` data
+* `Metop-A/B GOME-2 Level 2` data
+* `Metop-A/B GOME-2 Level 3` reprocessed and regridded data
+
+* `Polar Multi-Sensor Aerosol Optical Properties (PMAp) Level 2` data
+
+* `Metop-A/B IASI Level 2` data
+
+* `Copernicus Sentinel-5P TROPOMI Level 2` data
+* `Copernicus Sentinel-3 OLCI Level 1B` data
+* `Copernicus Sentinel-3 SLSTR NRT FRP Level 2` data
+* `Copernicus Sentinel-3 SLSTR NRT AOD Level 2` data
 
 And the following **model-based** data:
-* `Copernicus Atmosphere Monitoring Service (CAMS)` data
-* `Global ECMWF Fire Forecast (GEFF)` data
+* `Copernicus Atmosphere Monitoring Service (CAMS) Global Reanalysis (EAC4)` data
+* `Copernicus Atmosphere Monitoring Service (CAMS) Global Fire Assimilation System (GFAS)` data
+* `Coperncus Emergency Management Service (CEMS) Global ECMWF Fire Forecast (GEFF)` data
 
 
 
@@ -33,75 +37,71 @@ The course follows a modular approach and offers modules on:
 
 ### <a id='data_discovery'></a>20 - DATA DISCOVERY
 
-##### *AC SAF GOME-2 Level 2 and Level 3 data*
-   * [211 - AC SAF GOME-2 - Level 2 - Load and browse](./20_data_discovery/211_AC_SAF_GOME-2_L2_load_browse.ipynb)
-   * [212 - AC SAF GOME-2 - Level 2 - Pre-process](./20_data_discovery/212_AC_SAF_GOME-2_L2_preprocess.ipynb)
-   * [213 - AC SAF GOME-2 - Level 3 - Load and browse](./20_data_discovery/213_AC_SAF_GOME-2_L3_load_browse.ipynb)
-   * [214 - AC SAF GOME-2 - Level 3 - Aerosol Absorbing Index (AAI)](./20_data_discovery/214_AC_SAF_GOME-2_L3_AAI_load_browse.ipynb)
+##### *Metop-A/B/C GOME-2 Level 2 and Level 3 data*
+   * [211 - Metop-A GOME-2 - Tropospheric NO<sub>2</sub> - Level 2 - Load and browse](./20_data_discovery/211_Metop-A_GOME-2_NO2Tropo_L2_load_browse.ipynb)
+   * [212 - Metop-A/B GOME-2 - Tropospheric NO<sub>2</sub> - Level 2 - Pre-process](./20_data_discovery/212_Metop-AB_GOME-2_NO2Tropo_L2_preprocess.ipynb)
+   * [213 - Metop-A/B GOME-2 - Tropospheric NO<sub>2</sub> - Level 3 - Load and browse](./20_data_discovery/213_Metop-AB_GOME-2_NO2Tropo_L3_load_browse.ipynb)
+   * [214 - Metop-A/B/C GOME-2 - Absorbing Aerosol Index - Level 3 - Load and browse](./20_data_discovery/214_Metop-ABC_GOME-2_AAI_L3_load_browse.ipynb)
 
-##### *GOME-2 Polar Multi-Sensor Aerosol Optical Properties (PMAp) data*
-   * [221 - GOME-2 - Polar Multi-Sensor Aerosol Optical Properties (PMAp) - Load and browse](./20_data_discovery/221_GOME-2_PMAp_load_browse.ipynb)
+##### *Polar Multi-Sensor Aerosol Optical Properties (PMAp) Level 2 data*
+   * [221 - Polar Multi-Sensor Aerosol Optical Properties (PMAp) - Aerosol Optical Depth - Level 2 - Load and browse](./20_data_discovery/221_PMAp_AOD_L2_load_browse.ipynb)
 
-##### *IASI Level 2 data*
-   * [231 - IASI - Level 2 - Load and browse](./20_data_discovery/23_IASI_L2_load_browse.ipynb)
+##### *Metop-A/B IASI Level 2 data*
+   * [231 - Metop-A/B IASI - Ammonia (NH<sub>3</sub>) - Level 2 - Load and browse](./20_data_discovery/231_Metop-AB_IASI_NH3_L2_load_browse.ipynb)
 
-##### *Sentinel-5P Level 2 data*
-   * [241 - Sentinel-5P - Level 2 - Load and browse](./20_data_discovery/241_Sentinel-5P_L2_load_browse.ipynb)
+##### *Sentinel-5P TROPOMI Level 2 data*
+   * [241 - Sentinel-5P TROPOMI - Carbon Monoxide - Level 2 - Load and browse](./20_data_discovery/241_Sentinel-5P_TROPOMI_CO_L2_load_browse.ipynb)
 
 ##### *Sentinel-3 data*
-   * [251 - Sentinel-3 OLCI - Level 1 - Load and browse](./20_data_discovery/251_Sentinel-3_OLCI_L1_load_browse.ipynb)
-   * [252 - Sentinel-3 SLSTR NRT - Fire Radiative Power (FRP) - Load and browse](./20_data_discovery/252_Sentinel-3_SLSTR_NRT_FRP_load_browse.ipynb)
-   * [253 - Sentinel-3 SLSTR NRT - Aerosol Optical Depth (AOD) - Load and browse](./20_data_discovery/253_Sentinel-3_SLSTR_NRT_AOD_load_browse.ipynb)
+   * [251 - Sentinel-3 OLCI - Radiances - Level 1 - Load and browse](./20_data_discovery/251_Sentinel-3_OLCI_radiance_L1_load_browse.ipynb)
+   * [252 - Sentinel-3 SLSTR NRT - Fire Radiative Power (FRP) - Level 2 - Load and browse](./20_data_discovery/252_Sentinel-3_SLSTR_NRT_FRP_L2_load_browse.ipynb)
+   * [253 - Sentinel-3 SLSTR NRT - Aerosol Optical Depth (AOD) - Level 2 - Load and browse](./20_data_discovery/253_Sentinel-3_SLSTR_NRT_AOD_L2_load_browse.ipynb)
 
 ##### *Copernicus Atmosphere Monitoring Service (CAMS) data*
-   * [261 - CAMS - EAC4  Load and browse](./20_data_discovery/261_CAMS_eac4_load_browse.ipynb)
-   * [262 - CAMS - GFAS - Load and browse](./20_data_discovery/262_CAMS_gfas_load_browse.ipynb)
+   * [261 - CAMS Global reanalysis (EAC4) - Organic Matter Aerosol Optical Depth - Load and browse](./20_data_discovery/261_CAMS_EAC4_OMAOD_load_browse.ipynb)
+   * [262 - CAMS Global Fire Assimilation System (GFAS) - Fire Radiative Power - Load and browse](./20_data_discovery/262_CAMS_GFAS_FRPFIRE_load_browse.ipynb)
 
-##### *Global ECMWF Fire Forecast (GEFF) data*
-   * [271 - Global ECMWF Fire Forecast - Load and browse](./20_data_discovery/271_GEFF_fire_forecast_load_browse.ipynb)
-   * [272 - Global ECMWF Fire Forecast - Harmonized Danger Classes](./20_data_discovery/272_GEFF_fire_forecast_harmonized_danger_classes.ipynb)
-   * [273 - Global ECMWF Fire Forecast - Custom Danger Classes](./20_data_discovery/273_GEFF_fire_forecast_custom_danger_classes.ipynb)
+##### *Copernicus Emergency Management Service (CEMS) data*
+   * [271 - CEMS Global ECMWF Fire Forecast - Fire Weather Index - Load and browse](./20_data_discovery/271_CEMS_GEFF_FWI_load_browse.ipynb)
+   * [272 - CEMS Global ECMWF Fire Forecast - Fire Weather Index - Harmonized Danger Classes](./20_data_discovery/272_CEMS_GEFF_FWI_harmonized_danger_classes.ipynb)
+   * [273 - CEMS Global ECMWF Fire Forecast - Fire Weather Index - Custom Danger Classes](./20_data_discovery/273_CEMS_GEFF_FWI_custom_danger_classes.ipynb)
 
 
 ### <a id='case_studies'></a>30 - CASE STUDIES
 
-##### *AC SAF GOME-2 Level 2 and Level 3 data*
-   * [311 - AC SAF GOME-2 - Level 2 - Case study](./30_case_studies/311_AC_SAF_GOME-2_L2_case_study.ipynb)
-   * [312 - AC SAF GOME-2 - Level 3 - Case study](./30_case_studies/312_AC_SAF_GOME-2_L3_case_study.ipynb)
-   * [313 - AC SAF GOME-2 - Level 2 - Produce gridded dataset - Workflow](./30_case_studies/313_AC_SAF_GOME-2_L2_produce_gridded_dataset_workflow.ipynb)
+##### *Fires*
+   * [311 - Amazon fires 2019](./30_case_studies/311_fire_amazon_2019.ipynb)
+   * [312 - Siberian fires 2019](./30_case_studies/312_fire_siberia_2019.ipynb)
+   * [313 - Californian fires 2020](./30_case_studies/313_fire_california_2020.ipynb)
+   * [314 - Chernobly fires 2020 - Sentinel-3 SLSTR NRT - Fire Radiative Power](./30_case_studies/314_fire_chernobyl_2020_Sentinel-3_SLSTR_NRT_FRP_L2.ipynb)
+   * [315 - Californian fires 2020 - Sentinel-3 SLSTR NRT - Fire Radiative Power](./30_case_studies/315_fire_california_2020_Sentinel-3_SLSTR_NRT_FRP_L2.ipynb)
+   * [316 - Californian fires 2020 - Sentinel-3 SLSTR NRT - Aerosol Optical Depth](./30_case_studies/316_fire_california_2020_Sentinel-3_SLSTR_NRT_AOD_L2.ipynb)
 
-##### *Fire events - Case studies*   
-   * [321 - Siberian Fires - Summer 2019 - Case study](./30_case_studies/321_Siberian_fires_summer_2019_case_study.ipynb)
-   * [322 - Californian Fires - Summer 2020 - Case study](./30_case_studies/322_Californian_fires_summer_2020_case_study.ipynb)
+##### *Air pollution*   
+   * [321 - Map and time-series analysis - Metop-A/B GOME-2 - Tropospheric NO<sub>2</sub>](./30_case_studies/321_air_pollution_map_time-series_Metop-AB_GOME-2_NO2Tropo_L3.ipynb)
+   * [322 - Produce gridded dataset - Metop-A/B GOME-2 - Tropospheric NO<sub>2</sub>](./30_case_studies/322_air_pollution_produce_gridded_Metop-AB_GOME-2_NO2Tropo_L2.ipynb)
+   * [323 - Create an anomaly map - Europe - Metop-A/B GOME-2 - Tropospheric NO<sub>2</sub>](./30_case_studies/323_air_pollution_map_europe_2020_Metop-AB_GOME-2_NO2Tropo_L2.ipynb)
+   * [324 - Time-series analysis - Europe - Metop-A/B GOME-2 - Tropospheric NO<sub>2</sub>](./30_case_studies/324_air_pollution_time-series_europe_2020_Metop-AB_GOME-2_NO2Tropo_L2.ipynb)
+   * [325 - Create an anomaly map - Europe - Sentinel-5P TROPOMI - Tropospheric NO<sub>2</sub>](./30_case_studies/325_air_pollution_map_europe_2020_Sentinel-5P_TROPOMI_NO2Tropo_L2.ipynb)
+   * [326 - Time-series analysis - Europe - Sentinel-5P TROPOMI - Tropospheric NO<sub>2</sub>](./30_case_studies/326_air_pollution_time-series_europe_2020_Sentinel-5P_TROPOMI_NO2Tropo_L2.ipynb)
 
-##### *Sentinel-3 SLSTR NRT data - Case studies*
-   * [331 - Sentinel-3 SLSTR NRT FRP - Chernobyl fires - Case study](./30_case_studies/331_Sentinel-3_SLSTR_NRT_FRP_Chernobyl_fires_case_study.ipynb)
-   * [332 - Sentinel-3 SLSTR NRT FRP - Californian fires - Case study](./30_case_studies/332_Sentinel-3_SLSTR_NRT_FRP_Californian_fires_case_study.ipynb)
-   * [333 - Sentinel-3 SLSTR NRT AOD - Californian fires - Case study](./30_case_studies/333_Sentinel-3_SLSTR_NRT_AOD_Californian_fires_case_study.ipynb)
-
-##### *Antarctic ozone hole anomaly - Summer 2019*
-   * [341 - Antarctic ozone hole anomaly - Summer 2019 - Case study](./30_case_studies/341_Ozone_hole_anomaly_case_study.ipynb)
-   * [342 - Antarctic ozone hole anomaly - Summer 2019 - CAMS Animation - Case study](./30_case_studies/342_Ozone_hole_anomaly_2019_case_study_cams_animation.ipynb)
-
-##### *COVID-19 case study - GOME-2 and Sentinel-5p anomaly maps and time-series analysis*
-   * [351 - COVID-19 - GOME-2 anomaly map](./30_case_studies/351_COVID-19_case_study_GOME-2_anomaly_map.ipynb)
-   * [352 - COVID-19 - GOME-2 time-series analysis](./30_case_studies/352_COVID-19_case_study_GOME-2_time_series.ipynb)
-   * [353 - COVID-19 - Sentinel-5P anomaly map](./30_case_studies/353_COVID-19_case_study_Sentinel-5P_anomaly_map.ipynb)
-   * [354 - COVID-19 - Sentinel-5P time-series analysis](./30_case_studies/354_COVID-19_case_study_Sentinel-5P_time_series.ipynb)
+##### *Stratospheric Ozone*
+   * [331 - Antarctic ozone hole - Summer 2019](./30_case_studies/331_stratospheric_ozone_2019.ipynb)
+   * [332 - Antarctic ozone hole - CAMS animation - Summer 2019](./30_case_studies/332_stratospheric_ozone_animation_2019.ipynb)
 
 
 ### <a id='exercises'></a>40 - EXERCISES
 
-##### *Sentinel-5P - Exercises*
-   * [411 - Sentinel-5P Level 2 - Exercise](./40_exercises/411_Sentinel-5P_L2_exercise.ipynb)
+##### *Sentinel-5P TROPOMI*
+   * [411 - Sentinel-5P TROPOMI - Carbon Monoxide - Level 2](./40_exercises/411_Sentinel-5P_TROPOMI_CO_L2_exercise.ipynb)
 
-##### *Sentinel-3 - Exercises*
-   * [421 - Sentinel-3 OLCI Level 1 - Exercise](./40_exercises/421_Sentinel-3_OLCI_L1_exercise.ipynb)
-   * [422 - Sentinel-3 SLSTR NRT FRP - Exercise](./40_exercises/422_Sentinel-3_SLSTR_NRT_FRP_exercise.ipynb)
-   * [423 - Sentinel-3 SLSTR NRT AOD - Exercise](./40_exercises/423_Sentinel-3_SLSTR_NRT_AOD_exercise.ipynb)
+##### *Sentinel-3*
+   * [421 - Sentinel-3 OLCI - Radiances - Level 1](./40_exercises/421_Sentinel-3_OLCI_radiance_L1_exercise.ipynb)
+   * [422 - Sentinel-3 SLSTR NRT - Fire Radiative Power](./40_exercises/422_Sentinel-3_SLSTR_NRT_FRP_L2_exercise.ipynb)
+   * [423 - Sentinel-3 SLSTR NRT - Aerosol Optical Depth](./40_exercises/423_Sentinel-3_SLSTR_NRT_AOD_L2_exercise.ipynb)
 
-##### *Copernicus Atmosphere Monitoring Service - Exercises*
-   * [431 - CAMS EAC4 - Exercise](./40_exercises/431_CAMS_EAC4_exercise.ipynb)
+##### *Copernicus Atmosphere Monitoring Service*
+   * [431 - CAMS Global Reanalysis (EAC4) - Total Column Carbon Monoxide](./40_exercises/431_CAMS_EAC4_tcco_exercise.ipynb)
 
 <br>
 
